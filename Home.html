@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="Home.js" defer></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unexcusable Acts of Honesty</title>
+        <link rel="stylesheet" href="Home.css">
+        <link rel="icon" href="Jesses Face.png" type="image/x-icon">
+    </head>
+    <body style="display: flex; background-color: black;">
+        <div class="mainContainer">
+            <div class="inputContainer">
+                <input id="honestySubmitName" type="text" placeholder="Enter your name..." />
+                <input id="honestySubmitHonesty" type="text" placeholder="Paste your honesty..." />
+                <button onclick="updateHonesty(document.getElementById('honestySubmitName').value, document.getElementById('honestySubmitHonesty').value)">Submit</button>
+                <button onclick="document.querySelector('.inputContainer').style.display = 'none';">Cancel</button>
+            </div>
+            <div class="headerContainer"> 
+                <div onclick="enterYourself()" class="EnterYourself">
+                    Enter Yourself
+                </div>
+                <div class="headerSection">
+                    <div id="jesse" class="memberHeaderTab jesse" onclick="selectMember('jesse')">JESSE</div>
+                    <div id="mack" class="memberHeaderTab mack" onclick="selectMember('mack')">MACK</div>
+                    <div id="j" class="memberHeaderTab j" onclick="selectMember('j')">J</div>
+                    <div id="lari" class="memberHeaderTab lari" onclick="selectMember('lari')">LARI</div>
+                    <div id="stevie" class="memberHeaderTab stevie" onclick="selectMember('stevie')">STEVIE</div>
+                </div>
+            </div>     
+            <div class="textContainer">
+                    <div id="jesse" class="memberTextSection active">
+                        <div id="jesse" class="Honesty">
+                            Hello, I'm JESSE
+                        </div>
+                    </div>
+                    <div id="mack" class="memberTextSection">
+                        <div id="mack" class="Honesty">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta laoreet dapibus. Pellentesque efficitur, mi vitae hendrerit ornare, nunc purus convallis elit, lacinia tincidunt ligula enim nec augue. Aenean condimentum, orci vel pellentesque dignissim, nunc orci accumsan nulla, id tempor risus purus ut arcu. Mauris sed erat augue. Sed ut condimentum mauris. Quisque vestibulum egestas massa, vitae blandit turpis lacinia ac. Donec vehicula placerat arcu, nec dapibus tellus tincidunt non. Donec non porta lectus.
+
+Praesent lectus purus, facilisis id nisi quis, tempus lobortis urna. Suspendisse rutrum leo ex, ac congue ex placerat eget. Quisque et rutrum erat. Morbi sollicitudin nibh in diam mattis, at viverra felis tincidunt. Curabitur sollicitudin, dolor sit amet dictum volutpat, massa sem mollis sem, a euismod purus justo eu nisi. Vivamus neque enim, tincidunt id porta a, blandit eget sapien. Suspendisse euismod non massa sit amet euismod. In hac habitasse platea dictumst. Quisque nec nisl sollicitudin enim consequat dignissim ut ultrices justo. Phasellus odio diam, euismod id congue eget, rhoncus ut metus. Sed aliquam dui ac mi varius porttitor. In tincidunt mi sed nulla maximus, at convallis quam condimentum. Curabitur ut metus fringilla, tincidunt enim non, varius enim.
+
+Sed tristique diam in urna consectetur vehicula. Curabitur nec tortor lacus. Aenean varius, dui at suscipit feugiat, lorem massa eleifend ligula, nec feugiat lectus augue commodo sapien. Curabitur ut lacus dictum, feugiat magna sed, hendrerit est. Donec posuere vestibulum ante. Curabitur vulputate purus orci, at venenatis ante faucibus sit amet. Integer eget massa sit amet nulla convallis dictum vel vitae erat. Integer vitae placerat felis. Proin hendrerit et nibh eu mattis. Quisque finibus ante nec orci iaculis pharetra. Maecenas laoreet risus nec nunc cursus, ac scelerisque nisl ultricies.
+
+Cras feugiat ligula ac mi facilisis vulputate. Morbi at nibh at ex commodo aliquet. Nunc congue, leo ac bibendum tincidunt, tellus risus faucibus velit, vitae posuere neque leo nec quam. Vestibulum viverra erat sit amet nunc accumsan, in lobortis nisl lobortis. Nullam vel porttitor ligula. Nullam rutrum tincidunt mauris, quis cursus lectus dapibus non. Suspendisse dapibus sagittis massa in dictum. Nunc sit amet quam enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris finibus tincidunt arcu sed scelerisque. Praesent semper vitae mi congue hendrerit. Duis ullamcorper, mauris eu posuere tincidunt, dui urna egestas elit, ac posuere libero tellus a odio.
+
+Nullam ullamcorper felis sit amet mi lacinia, id dictum turpis rutrum. Integer congue elit massa, eu ornare libero ornare ac. Donec sed nisi ac mi volutpat fermentum quis nec lorem. Pellentesque augue metus, accumsan et nibh sit amet, viverra vestibulum nulla. In viverra, sapien non euismod tempor, nunc est vulputate lacus, eget lacinia felis nisi at nisl. Praesent a dapibus est. Donec at elementum nisl, at mollis lacus. Duis maximus placerat turpis vel congue. Sed dolor quam, faucibus a pulvinar ac, pharetra sit amet ligula. Praesent non arcu sed enim pulvinar euismod nec nec eros. Proin tempor mauris id purus cursus tempus. Morbi dui dolor, posuere id semper vitae, venenatis vitae libero.
+
+Maecenas venenatis ante scelerisque arcu rutrum, vel convallis metus laoreet. Proin imperdiet erat nisl, eget elementum metus vulputate tempor. Maecenas nisi purus, eleifend ac velit id, gravida venenatis eros. Suspendisse gravida lacinia nulla a sollicitudin. Quisque vulputate semper dapibus. Donec cursus magna et tortor mattis, a fringilla mauris pellentesque. Curabitur blandit ante felis, eget tempus tortor efficitur id. Cras fringilla sem a neque faucibus suscipit eu sed nibh. Morbi convallis, ante nec imperdiet eleifend, nunc metus iaculis odio, eu volutpat neque erat eu nibh. Nam nec odio vulputate, luctus urna sit amet, rutrum libero. Cras ac lorem tempor, fringilla augue quis, efficitur sem. Curabitur eu finibus eros.
+
+Curabitur pellentesque in sem quis fermentum. Mauris ornare lobortis diam, id fringilla neque facilisis non. Praesent urna diam, vulputate eu egestas vitae, dapibus non quam. Duis placerat, mi quis iaculis malesuada, est ex faucibus urna, vitae consectetur libero justo eu nisl. Phasellus cursus, nisi sit amet porta ornare, justo eros sagittis orci, ut cursus arcu felis vel ligula. Pellentesque pulvinar enim eu est tincidunt, ut sollicitudin libero tincidunt. Mauris ut nisl sit amet felis aliquet vestibulum. Etiam ut elit id diam pharetra viverra sed sed elit. Pellentesque porttitor ipsum eu eros mattis, at feugiat lacus suscipit. Duis pellentesque nulla eu massa tristique, vitae vestibulum nulla euismod. In consequat lacinia molestie. Nam purus ex, lobortis id maximus et, tempus non elit. Vivamus eget velit eu ante tempus blandit. Sed libero arcu, egestas posuere orci non, iaculis iaculis leo. Donec et interdum elit, eget lacinia ex. Aenean mi orci, posuere nec metus non, condimentum finibus eros.
+
+Nulla bibendum suscipit velit, sed interdum ex finibus non. Nam purus elit, bibendum vel sagittis eu, aliquet eget nisi. Mauris in sapien nisi. Quisque hendrerit tincidunt velit, non hendrerit odio fringilla tempus. Quisque lacinia sem vel mauris lacinia, vitae ultrices arcu aliquet. In eu eros nulla. Mauris vehicula ultricies dolor. Maecenas ipsum arcu, commodo id dignissim at, fringilla quis ligula. Quisque ullamcorper tortor eu pulvinar sollicitudin. Nam placerat arcu mi, ut tristique quam volutpat at.
+
+Suspendisse consequat et enim id tempor. Aliquam eget dolor et magna euismod cursus. Maecenas risus purus, ullamcorper vel justo eu, ornare eleifend velit. Nulla in fermentum magna. Curabitur ultrices velit ut arcu interdum gravida. Sed lobortis venenatis neque vehicula sollicitudin. Fusce vitae quam mi. Curabitur convallis nisl in risus fringilla, et feugiat nisi placerat. Nam quis mollis arcu, ut ultrices odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar, diam feugiat feugiat ultrices, justo quam egestas quam, eget placerat purus orci a libero. Pellentesque tristique neque vel lorem tempor bibendum. Mauris ultrices eros at imperdiet euismod.
+
+Vestibulum scelerisque, turpis sit amet porttitor consectetur, lectus lorem efficitur lectus, vel dictum nunc magna ut lectus. Pellentesque accumsan volutpat erat at rutrum. Pellentesque nec finibus odio. Nullam suscipit nulla in odio fringilla accumsan. Vivamus at elit eget orci porttitor vehicula varius eget dolor. Etiam eu lacus ut diam viverra consectetur. Mauris gravida interdum suscipit. Aenean ac malesuada odio. Vivamus facilisis et lacus vel vehicula. Donec orci massa.
+                        </div>
+                    </div>
+                    <div id="j" class="memberTextSection">
+                        <div id="j" class="Honesty">
+                            Hello, I'm J
+                        </div>
+                    </div>
+                    <div id="lari" class="memberTextSection">
+                        <div id="lari" class="Honesty">
+                            Hello, I'm LARI
+                        </div>
+                    </div>
+                    <div id="stevie" class="memberTextSection">
+                        <div id="stevie" class="Honesty">
+                            Hello, I'm STEVIE
+                        </div>
+                    </div>
+            </div>        
+        </div>
+    </body>
+</html>
